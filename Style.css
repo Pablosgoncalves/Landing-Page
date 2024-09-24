@@ -1,0 +1,120 @@
+*{
+    margin:0px ;
+    font-family:'inter';
+}
+#login
+{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left:125px;
+    margin-top:50px;
+}
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+    
+}
+#menusuperior{
+    background-image: url(Imagens/fundo-menusuperior.svg);
+    color:white;  
+}
+#menuinformativo{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow:column;
+    columns:auto;
+
+}
+
+.icones{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+#titulovideo{
+    color:#2478A0;
+    margin-top: 50px;
+}
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+#Depoimentos{
+    background-color: #2478A0;
+    padding: 50px;
+}
+#textodepoimento{
+    color:aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+.cards{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+#Bruna{
+    display: none;
+}
+.seta{
+    margin-top: 55%;
+}
+#Formulário{
+    text-align: center;
+
+}
+#Titulo-formulário{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+button{
+    background-color: #2478A0;
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    color: #EAECE5;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #fa0303;
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #383838a2;
+    transition-duration: 0,5s;
+
+}
